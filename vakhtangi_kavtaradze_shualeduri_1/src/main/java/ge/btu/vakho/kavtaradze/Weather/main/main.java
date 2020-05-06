@@ -6,8 +6,6 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 
-import java.util.Arrays;
-
 import java.util.List;
 
 @Path("/")
@@ -39,20 +37,6 @@ public class main {
         }
         return (Weather) list1;
     }
-
-//    @POST
-//    @Path("/sell/{to}/{amount}")
-//    @Produces(MediaType.APPLICATION_JSON)
-//    @Consumes(MediaType.APPLICATION_JSON)
-//    public float sell(@PathParam("to") String Name) {
-//        List<Weather> list2 = Singlton.currencyList;
-//        for (Weather var : list2) {
-//            if (var.getCur().equals(Name)) {
-//                return (float) var.getSell(amount);
-//            }
-//        }
-//        return 0f;
-//    }
 
 
 }

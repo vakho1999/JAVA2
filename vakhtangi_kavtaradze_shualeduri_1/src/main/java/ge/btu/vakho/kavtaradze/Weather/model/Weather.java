@@ -30,23 +30,9 @@ public class Weather {
         this.Wind_Speed = Wind_Speed;
 
     }
-
-
-
-//    public double getWeather(float amou) {
-//
-//        return  amou / sell;
-//    }
-
-//    public String getWeatherbycity(String city) {
-//
-//        return city;
-//    }
-
     public String getCity() {
         return city;
     }
-
     @Override
     public String toString() {
         return "{" +
@@ -58,7 +44,6 @@ public class Weather {
                 ", 'windSpeed':" + '"'+Wind_Speed + '"'+
                 '}';
     };
-
 }
 
 
